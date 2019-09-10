@@ -22,6 +22,8 @@ GEM
       activesupport (= 3.2.19)
       arel (~> 3.0.2)
       tzinfo (~> 0.3.29)
+    activerecord-postgresql-adapter (0.0.1)
+      pg
     activeresource (3.2.19)
       activemodel (= 3.2.19)
       activesupport (= 3.2.19)
@@ -101,6 +103,7 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
       mime-types
+    pg (1.1.4)
     polyglot (0.3.5)
     rack (1.4.5)
     rack-cache (1.2)
@@ -167,6 +170,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-postgresql-adapter
   acts_as_list
   acts_as_tree
   capistrano (= 2.15.5)
@@ -180,7 +184,9 @@ DEPENDENCIES
   mysql2
   nokogiri
   paperclip
+  pg
   rails (= 3.2.19)
+  rake (= 10.4.2)
   rest-client
   rvm-capistrano (= 1.5.6)
   sass-rails (~> 3.2.3)
@@ -190,4 +196,4 @@ DEPENDENCIES
   will_paginate
 
 BUNDLED WITH
-   1.10.6
+   1.17.3

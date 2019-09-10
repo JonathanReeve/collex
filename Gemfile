@@ -56,3 +56,7 @@ gem 'capistrano', '2.15.5'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+gem 'activerecord-postgresql-adapter'
+gem 'pg'
+gem 'rake', '10.4.2'
