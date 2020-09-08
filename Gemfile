@@ -59,4 +59,4 @@ gem 'capistrano', '2.15.5'
 
 gem 'activerecord-postgresql-adapter'
 gem 'pg'
-gem 'rake', '10.4.2'
+gem 'rake', '12.3.3'
